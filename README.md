@@ -1,2 +1,5 @@
 # Mint Front-End 
-HTML basiclerini kullanarak hazırladığım ilk sayfam.
+  - Practice dosyası\
+  HTML basiclerini kullanarak hazırladığım ilk sayfam.
+  - Görüntüye link ekleme dosyası\
+  Fotoğrafta istediğimiz bölümlere link atama işlemi
