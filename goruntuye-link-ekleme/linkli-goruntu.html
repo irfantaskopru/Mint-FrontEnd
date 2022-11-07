@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+</head>
+<body>
+    <h2>Görüntü üzerinden link verme işlemi</h2>
+
+    <img src="images/adam.jpg" alt="manken" usemap="#calisma-goruntusu" height="600">
+
+<!-- 
+    Koordinat verirken eğer shape = "rect" ise görüntünün sol üst ve sağ alt koordinatları yazılır.
+    shape = "circle" ise dairenin merkez koordinatları ve yarıçap boyu verilir
+ -->
+
+<map name="calisma-goruntusu">
+    <!-- title kullandığımızda imleç görüntünün üzerine geldiğinde title'in içine yazdığımız yazı ekranda görünür -->
+    <area shape="rect" coords="155,320,250,490" href="https://www.trendyol.com/mavi/jake-siyah-comfort-jean-pantolon-0042216291-p-1833623?boutiqueId=61&merchantId=63" alt="pantolon" title="pantolon">
+    
+    
+    <area shape="rect" coords="113,112,285,300" href="https://www.trendyol.com/mavi/logo-baskili-siyah-tisort-slim-fit-dar-kesim-065781-900-p-90315375?boutiqueId=61&merchantId=63" alt="t-shirt" title="t-shirt">
+    
+    
+    
+    <area shape="rect" coords="170,490,240,575" href="https://www.trendyol.com/vans/old-skool-unisex-ayakkabi-vn000d3hy281-p-1738026?boutiqueId=615294&merchantId=254575" alt="ayakkabı" title="ayakkabı">
+
+
+</map>
+</body>
+</html>
